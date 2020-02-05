@@ -1,15 +1,13 @@
 body    {
  background-color: rgb(168, 192, 194);
  color: black;
+
  
 }
 h1 {
     color: darkcyan;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px ;
-}
-.header nav {
-
 }
 article.col-12.card {
     width: 930 px;
@@ -30,9 +28,19 @@ h1  {
   }
 
 img.float-left.mr-2 {
-    height: 150px;
-    width: 150Px;
+    height: 404px;
+    width: 300Px;
 }
+img.card-img-top {
+    height: 404px;
+    width: 406px;
+}
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
 
 a.navbar-brand  {
     background-color: darkcyan;
@@ -41,6 +49,11 @@ a.navbar-brand  {
 
 .container {
     padding: 30px;
+
+  
+}
+article.col-12.card {
+    height: 1500px;
 }
 
 input#exampleInputMessage1.form-control {
@@ -61,3 +74,5 @@ footer {
  footer p  {
     font-size: 10px;
  }
+
+
