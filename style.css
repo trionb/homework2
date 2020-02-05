@@ -9,10 +9,10 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px ;
 }
-article.col-12.card {
+/* article.col-12.card {
     width: 930 px;
     height: 850px;
-}
+} */
 a{
     margin-left: 80px;
     color: white;
@@ -33,7 +33,7 @@ img.float-left.mr-2 {
 }
 img.card-img-top {
     height: 300px;
-    width: 350px;
+    /* width: 350px; */
 }
 .centered {
     position: absolute;
@@ -52,9 +52,9 @@ a.navbar-brand  {
 
   
 }
-article.col-12.card {
-    height: 1700px;
-}
+/* article.col-12.card {
+    height: 1000px;
+} */
 
 input#exampleInputMessage1.form-control {
     
